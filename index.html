@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <input type="text" value="https://google.com" id="hi">
+        <button onclick="click()">test</button>
+
+        <script>
+            function click() {
+                let value = document.getElementById("hi").value
+                window.location.href = __uv$config.prefix + __uv$config.encodeUrl(url);
+            }
+        </script>
+    </body>
+</html>
